@@ -4,7 +4,6 @@ const { test } = require('../lib');
 const { Queue } = require('../src/queue');
 
 describe('Queue', () => {
-  // Presence requirement
   describe('variable presence', () => {
     test('class Queue exists', () => {
       assert.ok(Queue);
